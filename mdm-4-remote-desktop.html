@@ -4,11 +4,12 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>MDM Cloud</title>
+  <title>VPN Remote Desktop</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
   <!-- Favicons -->
+
   <link href="./assets/img/vietinbank-ico.ico" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
@@ -159,11 +160,11 @@
     <!-- Page Title -->
     <div class="page-title light-background">
       <div class="container">
-        <h1>Hướng dẫn đăng ký và cài đặt trên thiết bị</h1>
+        <h1>Hướng dẫn cài đặt hệ thống MDM truy cập VPN Remote Desktop</h1>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Trang chủ</a></li>
-            <li class="current">Hướng dẫn đăng ký và cài đặt trên thiết bị</li>
+            <li class="current">Hướng dẫn cài đặt hệ thống MDM truy cập VPN Remote Desktop</li>
           </ol>
         </nav>
       </div>
@@ -177,33 +178,43 @@
         <div class="privacy-header">
           <div class="header-content">
             <div class="last-updated">Thay đổi lần cuối: February 27, 2025</div>
-            <h1>MDM Cloud</h1>
-            <p class="intro-text">VIDEO HƯỚNG DẪN truy cập từ Internet: <a href="https://user.vietinbank.vn" target="_blank">https://vietinbank.edu.vn/learner/my-learning/tudo89-P-6777</a></p>
+            <h1>VPN Remote Desktop</h1>
+            <p class="intro-text">Chỉ dành cho Khối CNTT và Dữ liệu</p>
           </div>
         </div>
         <!-- Main Content -->
         <div class="privacy-content">
           <div class="content-section">
-            <img src="file/Huong dan cai dat nhanh MDM Cloud_final_install.png" alt="Hướng dẫn cài đặt nhanh MDM Cloud" style="display:block; margin-bottom:50px;">
-            <h2>1. Cài đặt cho thiết bị chạy hệ điều hành iOS (của Apple) </h2>
-            <embed src="file/Tai lieu huong dan su dung he thong MDM cloud (ver12.0 - 25022024)_IOS - xac thuc MFA_final.pdf" type="application/pdf" width="100%" height="600px" />
+            <!-- <img src="file/Huong dan cai dat nhanh MDM Cloud_final_install.png" alt="Hướng dẫn cài đặt nhanh MDM Cloud" style="display:block; margin-bottom:50px;"> -->
+            <h2>1. Cài đặt phục vụ truy cập VPN remote desktop cho thiết bị chạy HĐH WINDOWS</h2>
+            <embed src="file/VPN Remote Desktop qua MDM Cloud_Ver21.0_Final_05082025.pdf" type="application/pdf" width="100%" height="600px" />
             <!-- <a href="file/danh-sach-dang-ky-mdm-user.pdf" target="_new">DANH SÁCH CÁN BỘ ĐẦU MỐI CÓ QUYỀN ĐĂNG KÝ MDM TRÊN TRANG USER.VIETINBANK.VN </a> -->
           </div>
           <!-- Introduction -->
           <div class="content-section">
-            <h2>2. Cài đặt cho thiết bị chạy HĐH Android</h2>
-            <embed src="file/Tai lieu huong dan su dung he thong MDM cloud (ver9.0 - 15042024)_Android.pdf" type="application/pdf" width="100%" height="600px" />
+            <h2>2. Hướng dẫn đồng bộ lại profile trên thiết bị laptop</h2>
+            <!-- <embed src="file/Tai lieu huong dan su dung he thong MDM cloud (ver9.0 - 15042024)_Android.pdf" type="application/pdf" width="100%" height="600px" /> -->
+            <h3>Search thanh công cụ windows desktop -> Vào "Access work or school" -> Connected by UserAD@vietinbank.vn -> Kính mũi tên xuống -> Managed by Workspace ONE -> Info -> Device sync status -> Bấm "Sync"</h3>        
+          </div>
+          <div class="content-section">
+            <h2>3. Hủy đăng ký cho thiết bị laptop chạy HĐH Windows (Xóa cache MDM trên laptop) </h2>
+            <!-- <embed src="file/Tai lieu huong dan su dung he thong MDM cloud (ver9.0 - 15042024)_Android.pdf" type="application/pdf" width="100%" height="600px" /> -->
+            <h3>Cách 1 (Đơn giản nhưng không sạch Cache):</h3>
+            <p>- Truy cập vào trang: https://inet.vietinbank.vn <span style="color: red;">-></span> login bằng userAD <span style="color: red;">-></span> Xuất hiện màn hình của sổ trình duyệt Chrome của INET.vietinbank.vn hoặc qua Internet. <span style="color: red;">-></span> Đăng nhập thành công vào trang seft service Portal của chính cán bộ: <a href="https://ds1689.awmdm.com/mydevice" target="_blank">https://ds1689.awmdm.com/mydevice</a> <span style="color: red;">-></span> Nhập Group ID: ICBV-VPN <span style="color: red;">-></span> Login SSO <span style="color: red;">-></span> Chọn thiết bị laptop <span style="color: red;">-></span> Delete Device.</p>
+            <h3>Cách 2 (Sạch Cache):</h3>
+            <embed src="file/Huong dan chay script xoa cache sau khi unenroll MDM_final3.pdf" type="application/pdf" width="100%" height="600px" />
 
           </div>
           <div class="content-section">
-            <h2>3. Cài đặt cho thiết bị Laptop Hệ điều hành Windows - Truy cập Website nội bộ và email </h2>
-            <embed src="file/Tai lieu huong dan su dung he thong MDM cloud (ver9.0 - 15042024)_Android.pdf" type="application/pdf" width="100%" height="600px" />
-
+            <h2>4. Hướng dẫn khai báo lại biểu mẫu đăng ký BM01 + có phê duyệt của LĐP/BLĐ NHCT (điền đầy đủ thông tin và gửi yêu cầu về email CNTT@vietinbank.vn) </h2>
+            <!-- <embed src="file/Laptop MacOS_ICBV-WIN - Tai lieu huong dan su dung he thong MDM cloud (ver12.0 - 05082025)_MacOS_final.pdf" type="application/pdf" width="100%" height="600px" /> -->
+            <a href="file/Biểu mẫu 01 - Đăng ký hoặc hủy cấp quyền truy cập với thiết bị làm việc di động.docx" target="_new">Kích vào đây để tải biểu mẫu đăng ký BM01 về và điền thông tin </a>
           </div>
-          <div class="content-section">
-            <h2>4. Cài đặt cho thiết bị laptop chạy HĐH MacOS </h2>
-            <embed src="file/Laptop MacOS_ICBV-WIN - Tai lieu huong dan su dung he thong MDM cloud (ver12.0 - 05082025)_MacOS_final.pdf" type="application/pdf" width="100%" height="600px" />
 
+          <div class="content-section">
+            <h2>5. Hướng dẫn lấy thông tin cần thiết trên thiết bị người dùng</h2>
+            <embed src="file/HƯỚNG DẪN LẤY THÔNG TIN DEVICE ID (UUID & SERIAL NUMBER) TRÊN THIẾT BỊ NGƯỜI DÙNG.pdf" type="application/pdf" width="100%" height="600px" />
+            <!-- <h3>Search thanh công cụ windows desktop -> Vào "Access work or school" -> Connected by UserAD@vietinbank.vn -> Kính mũi tên xuống -> Managed by Workspace ONE -> Info -> Device sync status -> Bấm "Sync"</h3>         -->
           </div>
 
 
