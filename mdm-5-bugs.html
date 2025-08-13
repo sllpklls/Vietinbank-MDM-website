@@ -262,7 +262,11 @@
                 </div>
                 <div class="faq-content">
                   <div class="content-inner">
-                    <p>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Donec sollicitudin molestie malesuada.</p>
+                    <p>Khi bạn Enroll thành công, thì ứng dụng Tunnel sẽ được tự động cài đặt vào trên thiết bị. Bạn mở ứng dụng Tunnel lên.</p>
+                    <img src="file/mdm_manhinh.png" alt="MDM Screen" style="max-width: 40%; height: auto; margin: 16px 0; display: block; margin: 16px auto;"> 
+                    <p>Bấm vào biểu tượng chỗ Tunnel để kiểm tra kết nối thử</p>
+                    <img src="file/connectVPN_tunnel.png" alt="MDM connect VPN Tunnel" style="max-width: 40%; height: auto; margin: 16px 0; display: block; margin: 16px auto;"> 
+                    <p>Khi mở ứng dụng Web lên, trạng thái kết nối hiển thị Xanh là Hoạt động tốt (Lúc này trạng thái Status là: Connection.</p>
                   </div>
                 </div>
               </div><!-- End FAQ Item -->
@@ -278,7 +282,18 @@
                 </div>
                 <div class="faq-content">
                   <div class="content-inner">
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p>
+                    <p>* Với lỗi 4.1, 4.2, 4.3 thì chung cách xử lý:</p>
+                    <p>Đây không phải là lỗi mà hệ thống đang ghi nhận có 1 thiết bị đang được enroll với user đó (mặc định mỗi 1 user chỉ có quyền đăng ký cho 1 thiết bị tại 1 thời điểm).</p>
+                    <p></p>
+                    <img src="file/devicenotapproved_hub.jpg" alt="Device not approved" style="max-width: 40%; height: auto; margin: 16px 0; display: block; margin: 16px auto;"> 
+                    <p>Để có thể enroll trên thiết bị mới hoặc enroll lại thiết bị đề nghị người dùng truy cập link https://ds1689.awmdm.com/mydevice (thực hiện login & xoá thiết bị cũ nếu không còn sử dụng).</p>
+                    <img src="file/mdm_portal (1).png" alt="MDM Portal" style="max-width: 40%; height: auto; margin: 16px 0; display: block; margin: 16px auto;"> 
+
+                    <p>Thực hiện delete thiết bị cần thay thế.</p>
+                    <img src="file/delete_device_mdm.png" alt="Delete d" style="max-width: 40%; height: auto; margin: 16px 0; display: block; margin: 16px auto;"> 
+                    <p>* Với lỗi 4.4 thì xử lý như sau:</p>
+                    <p>Hệ thống báo lỗi khi đồng bộ userAD lên hệ thống Access console của MDM.</p>
+                    <p>-> Đề nghị người dùng gửi yêu cầu về cntt@vietinbank.vn và cc cho nhóm Adadmins@vietinbank.vn hoặc Email-admin@vietinbank.vn để bổ sung thêm trường lastName,firstName cho userAD</p>
                   </div>
                 </div>
               </div><!-- End FAQ Item -->
@@ -294,7 +309,11 @@
                 </div>
                 <div class="faq-content">
                   <div class="content-inner">
-                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati.</p>
+                    <p>1. Điện thoại của bạn phải cài đặt các Application Mobile đó từ Store nội bộ của Vietinbank. Truy cập vào Apps nội bộ (trong ứng dụng Intelligent Hub được cài đặt tự động sau khi Enroll.)</p>
+                    <p>-> Nếu trường hợp có thông báo update app mobile (ví dụ app VietinBank Genie,...) , bạn kiểm tra trên màn hình thì thấy app VietinBank Genie có dấu chấm xanh (.)</p>
+                    <img src="file/Huong_dan_Genie_chatbot.png" alt="Genie chatbot" style="max-width: 40%; height: auto; margin: 16px 0; display: block; margin: 16px auto;"> 
+                    <p>2. Sau khi truy cập vào Appps trong Intelligent Hub thành công. Bạn tìm và chọn ứng dụng Mobile cần cài đặt</p>
+                    <img src="file/All_app_hub.png" alt="Genie chatbot" style="max-width: 40%; height: auto; margin: 16px 0; display: block; margin: 16px auto;"> 
                   </div>
                 </div>
               </div><!-- End FAQ Item -->
@@ -309,7 +328,7 @@
                 </div>
                 <div class="faq-content">
                   <div class="content-inner">
-                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati.</p>
+                    <p>Người dùng có 2 cách xử lý: Cách 1: Nâng cấp IOS lên thành > 14; Cách 2: Uninstall và cài trực tiếp từ App Store</p>
                   </div>
                 </div>
               </div><!-- End FAQ Item -->
@@ -324,7 +343,15 @@
                 </div>
                 <div class="faq-content">
                   <div class="content-inner">
-                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati.</p>
+                    <p>1. Đầu tiên, người dùng tự thao tác các bước sau:</p>
+                    <p>Bước 1: Bạn mở ứng dụng Hub Intelligent lên --> Vào mục "Support" --> My Devices --> Nhấn vào thiết bị di động của bạn --> Kéo xuống dưới --> Vào mục Profiles --> Chọn profile ICBV-IOS-VPN / Android-VPN-ALL / Android-VPN-Chatbot --> Bấm Reinstall Profile.</p>
+                    <p>Bước 2: Bây giờ bạn xóa các ứng dụng Web, Tunnel - Workspace ONE, My VietinBank, VietinBank Genie... đi và tải lại các ứng dụng mobile bị lỗi đó từ app Hub Intelligent, sau đó bạn mở lại Web, My VietinBank, VietinBank Genie... và truy cập lại các website nội bộ và các ứng dụng mobile nội bộ (KHÔNG CẦN THIẾT QUÁ PHẢI THAO TÁC).</p>
+                    <p>Bước 3: Bạn có thể close hết các ứng dụng của MDM (Web, Tunnel, VietinBank Genie...) bạn đang mở --> Và mở lại các ứng dụng Web, Tunnel, VietinBank Genie,...</p>
+                    <p>2. Nếu vẫn lỗi, tắt wifi và bắt 3/4/5G -> Thử mở lại các app.</p>
+                    <p>3. Nếu vẫn lỗi, restart lại thiết bị di động 1 hoặc nhiều lần.</p>
+                    <p>4. Nếu các thao tác trên vẫn lỗi : Đề nghị Vào Hub Intelligent --> Support --> My Devices --> Chọn thiết bị di động của bạn --> Sync Device</p>
+                    <p>5. Nếu vẫn không khắc phục được, đề nghị bạn unenroll bằng cách vào app Intelligent Hub -> Support -> My Devices -> Chọn thiết bị của bạn -> Kéo xuống có dòng Enrollment -> Unenroll Device . Sau đó restart lại máy nhiều lần -> Enroll lại MDM theo hướng dẫn.</p>
+                    <p>- Lưu ý: Sau khi Unenroll Device trong app Intelligent Hub, bạn phải vào Cài đặt (Setting) -> Cài đặt chung (General) -> Quản lý VPN & Thiết bị -> Nếu còn Workspace Service -> Xóa Quản lý đi -> Restart lại thiết bị di động.</p>
                   </div>
                 </div>
               </div><!-- End FAQ Item -->
@@ -493,7 +520,7 @@ Bản quyền thuộc về Ngân hàng TMCP Công Thương Việt Nam.</p>
             <h4>Services</h4>
             <ul>
               <li><a href="#"><i class="bi bi-chevron-right"></i> Trang chủ</a></li>
-              <li><a href="#"><i class="bi bi-chevron-right"></i> Về chúng ta</a></li>
+              <li><a href="#"><i class="bi bi-chevron-right"></i> Về chúng tôi</a></li>
               <li><a href="#"><i class="bi bi-chevron-right"></i> Team</a></li>
               <li><a href="#"><i class="bi bi-chevron-right"></i> Thông báo</a></li>
               <li><a href="#"><i class="bi bi-chevron-right"></i> Liên hệ</a></li>
